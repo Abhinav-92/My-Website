@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+
+}
+.nav{
+    height: 100vh;
+    width: 20%;
+    background-color:#191A19;
+    position: fixed;
+    
+}
+
+
+
+body{
+    background-color: #0F110F;
+    color: white;
+}
+
+.top{
+    height: 47%;
+    width: 100%;
+   
+}
+.bottom{
+    height: 53%;
+    width: 100%;
+    background-color:#191A19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo{
+    height: 60%;
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid goldenrod;
+}
+.description{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bottom li{
+    list-style: none; 
+    height: 50px;
+    width: 200px;  
+    background-color:#333231;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 50% 0 50%;
+}
+
+.bottom a{
+    text-decoration: none;
+    color:white;
+}
+.bottom li:hover{
+    cursor: pointer;
+    background-color: goldenrod;
+}
+
+.btn{
+    padding:.7rem 3rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+.btn i{
+    padding:0 .5rem;
+    font-size: 1.8rem;
+}
+.btn:hover{
+    background: goldenrod;
+} 
+.home{
+    display: flex;
+    height: 100vh;
+    width: 1210px;
+    margin-left: 20%;
+    justify-content: center;
+    flex-flow: column;
+    padding:0 10rem;
+    background-color: #0F110F;
+}
+
+.home h3{
+    font-size: 2rem;
+    color:#fff;
+    margin-bottom: 10px;
+}
+
+.home h2{
+    font-size:3rem;
+    color:#fff;
+    margin-bottom: 20px;
+} 
+
+.home h2 span{
+    color:goldenrod;
+}
+
+.home p{
+    font-size:2rem;
+    color:#eee;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.aboutme{
+    background-color: #0F110F;
+    width: 1210px;
+    margin-left: 20%;
+    height: 100vh;
+
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+   
+}
+
+.title h1{
+    margin-top: 40px;
+    color:goldenrod;
+}
+.line{
+    width: 80%;
+    height: 1px;
+    background-color: azure;
+   margin-top: 20px;
+}
+
+.detail{
+   padding-left: 40%;
+   padding-top: 5%;
+    font-size: 2rem;
+    list-style: none;
+}
+
+
+.detail li{
+    margin-bottom: 20px;
+}
+
+.cv{
+    justify-content: center;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.education{
+    background-color: #0F110F;
+    width: 1210px;
+    margin-left: 20%;
+    height: 100vh;
+}
+
+.education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    padding-left: 3rem;
+}
+.education .box-container .box{
+    width:27rem;
+    margin:2rem 1.5rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+.education .box-container .box span{
+    font-size: 1.3rem;
+    background:#222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.education .box-container .box h3{
+    font-size: 2rem;
+    color:#fff;
+    padding-top: 1.5rem;
+}
+
+.education .box-container .box p{
+    font-size: 1.2rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.education .box-container .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+    background: goldenrod;
+}
+
+
+.portfolio{
+    background-color: #0F110F;
+    width: 1210px;
+    margin-left: 20%;
+    height: 100vh;
+}
+.contact{
+    background-color: #0F110F;
+    width: 1210px;
+    margin-left: 20%;
+    height: 100vh;
+}
+
+.portfolio .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+}
+
+.portfolio .box-container .box{
+    height: 10rem;
+    width:16rem;
+    border-radius: 1rem;
+    margin:2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.portfolio .box-container .box img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.portfolio .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row .content{
+    flex:1 1 30rem;
+    padding:4rem;
+    padding-bottom: 0;
+}
+
+.contact .row form{
+    flex:1 1 45rem;
+    padding:2rem;
+    margin:2rem;
+    margin-bottom: 4rem;
+}
+
+
+
+
+.contact .row .content .tit{
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color:#eee;
+    padding:1rem 0;
+    font-weight: normal;
+}
+
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color: goldenrod;
+}
